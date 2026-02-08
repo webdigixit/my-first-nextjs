@@ -14,21 +14,21 @@ export default function Home() {
         onClick={() => setCount(count + 1)}
         className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
       >
-        Click me to increase!
+        Click me to increase! ➕
       </button>
 
       <button
         onClick={() => setCount(0)}
         className="mt-4 text-sm text-gray-500 underline"
       >
-        Reset counter
+        Reset counter 🔁
       </button>
 
       <button
         onClick={() => setCount(count - 1)}
         className="mt-4 text-sm text-gray-500 underline"
       >
-        Decrease number
+        Decrease number ➖
       </button>
     </main>
   );
